@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tic-tac-toe-terminal"
+version = "1.0.0"
+description = "A thoughtful terminal Tic-Tac-Toe with computer opponents and persistent scores."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Soumil Makhija"}]
+dependencies = []
+
+[project.scripts]
+tic-tac-toe = "tic_tac_toe.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tic_tac_toe*"]
+
