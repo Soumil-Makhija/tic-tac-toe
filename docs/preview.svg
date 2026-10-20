@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="496" viewBox="0 0 780 496">
+<title>Tic-Tac-Toe terminal preview</title>
+<desc>Alex wins with three Xs across the top row. Sample score: Alex two, Sam zero, one draw.</desc>
+<rect width="780" height="496" rx="18" fill="#101923"/>
+<text x="32" y="34" fill="#8396ae" font-size="12" font-family="monospace">TIC-TAC-TOE / LOCAL TWO-PLAYER</text>
+<path d="M32 52H748" stroke="#2c3b4e"/>
+<text x="36" y="88" fill="#72e1d1" font-size="18" font-family="monospace" xml:space="preserve">TIC / TAC / TOE</text>
+<text x="36" y="114" fill="#a8b7cb" font-size="18" font-family="monospace" xml:space="preserve">Small board. Thoughtful moves.</text>
+<text x="36" y="140" fill="#fff" font-size="18" font-family="monospace" xml:space="preserve"></text>
+<text x="36" y="166" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">ROUND 3  /  Alex (X) vs Sam (O)</text>
+<text x="36" y="192" fill="#fff" font-size="18" font-family="monospace" xml:space="preserve"></text>
+<text x="36" y="218" fill="#72e1d1" font-size="18" font-family="monospace" xml:space="preserve">    X | X | X</text>
+<text x="36" y="244" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">   ---+---+---</text>
+<text x="36" y="270" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">    O | O | 6</text>
+<text x="36" y="296" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">   ---+---+---</text>
+<text x="36" y="322" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">    7 | 8 | 9</text>
+<text x="36" y="348" fill="#fff" font-size="18" font-family="monospace" xml:space="preserve"></text>
+<text x="36" y="374" fill="#94e3a1" font-size="18" font-family="monospace" xml:space="preserve">Alex wins this round!</text>
+<text x="36" y="400" fill="#edf2f9" font-size="18" font-family="monospace" xml:space="preserve">Score: Alex 2  |  Sam 0  |  Draws 1</text>
+<text x="36" y="426" fill="#fff" font-size="18" font-family="monospace" xml:space="preserve"></text>
+<text x="36" y="452" fill="#a8b7cb" font-size="18" font-family="monospace" xml:space="preserve">Play again? [Y/n]: _</text>
+</svg>

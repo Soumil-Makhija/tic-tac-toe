@@ -175,12 +175,15 @@ def main(argv=None) -> int:
         print("\n  Thanks for playing. See you next round!\n")
         return 0
     except (QuitGame, EOFError):
-        print("\n  See you next round! Completed rounds stay on the scoreboard.\n")
+        print("\n  See you next round!\n")
         return 0
     except KeyboardInterrupt:
         print("\n  Game interrupted. Only completed rounds count.\n")
         return 130
-    except (OSError, sqlite3.Error, ValueError) as error:
+    except ValueError as error:
+        print(f"Error: {error}", file=sys.stderr)
+        return 1
+    except (OSError, sqlite3.Error) as error:
         print(f"Error: {error}", file=sys.stderr)
         print("Scores could not be read or saved. Check the data directory, or play with --no-save.", file=sys.stderr)
         return 1
